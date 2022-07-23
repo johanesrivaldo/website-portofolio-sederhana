@@ -1,0 +1,169 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+/* Styles */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* #home {
+  font-family: "Montserrat", sans-serif;
+  background-image: url(../img/bg.jpg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  height: 40vmax;
+  background-size: 60vmax;
+  margin-top: -15em;
+  margin-bottom: 150px;
+} */
+/* Navbar */
+.custom-nav span {
+  color: purple;
+  font-size: 1.4rem;
+  margin-left: 0.4em;
+}
+#navbarNav .navbar-nav .nav-item .nav-link {
+  color: purple;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-left: 2.4em;
+}
+.sign-up-button {
+  background-color: lightsalmon;
+  color: white;
+  border: none;
+  border-radius: 2em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
+}
+.play-btn {
+  /* padding-left: 2.5em;
+  padding-right: 2.5em; */
+}
+/* Body Heading */
+.home {
+  margin-top: 15em;
+}
+.banner-text {
+  margin-bottom: 12em;
+  justify-content: center;
+  text-align: center;
+}
+.banner-text h2 {
+  font-size: 43px;
+  font-weight: 600;
+  color: orangered;
+}
+
+.body-heading p {
+  font-weight: 300;
+}
+.btn-readMore {
+  background-color: #516ad8;
+  border: none;
+  border-radius: 5em;
+  margin-top: 1em;
+  text-align: center;
+  margin-left: 20%;
+}
+.btn-readMore a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
+}
+.btn-tontonvideo {
+  background-color: #516ad8;
+  border: none;
+  border-radius: 5em;
+  margin-top: 1em;
+  text-align: center;
+}
+.btn-tontonvideo a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 3px 5px;
+}
+.banner-pic {
+  width: 100%;
+  margin-top: -6em;
+}
+.about {
+  background: #516ad8;
+  height: 70em;
+}
+.about h2 {
+  color: #fff;
+  text-align: center;
+}
+hr {
+  width: 50px;
+  border: 1px solid yellowgreen;
+}
+.about p {
+  text-align: center;
+  color: #fff;
+  font-weight: 200;
+  font-size: 20px;
+}
+.owner img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border-color: purple;
+}
+.accounts {
+  margin-top: -10x;
+}
+.blog {
+  height: 55vmax;
+  /* background: #f6f8fa; */
+}
+.blog h2 {
+  text-align: center;
+  padding-top: 120px;
+}
+.blog p {
+  text-align: center;
+}
+.contact {
+  background: #001e6c;
+  color: #fff;
+  height: 35em;
+  text-align: center;
+  margin-top: -3em;
+}
+.copyright {
+  margin-top: 220px;
+  font-weight: 200;
+}
+/* Responsive Navbar */
+/* max-width : 992px adalah Navbar akan melebara jika di ukuran device 992px keatas atau versi pc/laptop */
+@media screen and (max-width: 992px) {
+  body {
+    background-size: 28em;
+    object-position: center;
+  }
+  .custom-nav {
+    margin-top: -1.5em;
+  }
+  .sign-up-button {
+    width: 6em;
+  }
+  .body-heading {
+    text-align: center;
+    margin-top: 20em;
+  }
+  .contact h2 {
+    padding-top: 60px;
+
+  }
+  .blog {
+    height: 60vmax;
+    margin-bottom: 60px;
+  }
+}
+/* Only for mobile */
